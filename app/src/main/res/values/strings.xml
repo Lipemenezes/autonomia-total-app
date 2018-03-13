@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">AutonomiaTotalApp</string>
+    <string name="label_car">Nome do carro</string>
+    <string name="hint_car">Digite o nome do carro</string>
+    <string name="label_distance_km">Distancia percorrida (km)</string>
+    <string name="hint_distance_km">Digite a distância percorrida</string>
+    <string name="label_fuel">Quantidade de combustível (litros)</string>
+    <string name="hint_fuel">Quanto combustível foi gasto?</string>
+    <string name="btn_calculate">Calcular</string>
+    <string name="btn_clear">Limpar</string>
+    <string name="label_average">Consumo médio da frota:</string>
+</resources>
