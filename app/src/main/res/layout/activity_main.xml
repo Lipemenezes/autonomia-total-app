@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_car"
-        android:id="@+id/editCarName"
+        android:id="@+id/edit_car_name"
         />
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_distance_km"
-        android:id="@+id/editDistanceKm"
+        android:id="@+id/edit_distance_km"
         android:inputType="numberDecimal"
         />
 
@@ -42,7 +42,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/hint_fuel"
-        android:id="@+id/editFuelQuantity"
+        android:id="@+id/edit_fuel_quantity"
         android:inputType="numberDecimal"
         />
 
@@ -98,7 +98,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/layoutCarInformation"
+        android:id="@+id/layout_car_information"
         >
     </LinearLayout>
 
