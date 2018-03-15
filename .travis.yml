@@ -8,7 +8,7 @@ before_cache:
 
 env:
  global:
- - ANDROID_API=24
+ - ANDROID_API=26
  - EMULATOR_API=21
  - ADB_INSTALL_TIMEOUT=5 # minutes
 
@@ -19,7 +19,8 @@ android:
     - platform-tools
     - build-tools-26.0.2
     - android-19
-    - android-26
+    - android-$ANDROID_API_LEVEL
+    - android-$EMULATOR_API_LEVEL
     - extra-android-support
     - extra-android-m2repository
     - extra-google-m2repository
