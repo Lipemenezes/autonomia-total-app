@@ -8,8 +8,8 @@ before_cache:
 
 env:
  global:
- - ANDROID_API=26
- - EMULATOR_API=21
+ - ANDROID_API_LEVEL=26
+ - EMULATOR_API_LEVEL=21
  - ADB_INSTALL_TIMEOUT=5 # minutes
 
 android:
